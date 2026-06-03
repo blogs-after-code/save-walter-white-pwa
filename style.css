@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief&display=swap');
+html,
+body {
+    background:
+        rgba(0, 0, 0, 0.750) url(./assets/Breaking\ Bad.jpeg);
+
+    background-blend-mode: darken;
+   font-family: "Comic Relief", system-ui;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 5;
+}
+
+.header {
+    color: #fff;
+    font-size: 7.5rem;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.title {
+    color: yellow;
+    font-size: 3rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery1 {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery1 img {
+    width: 20rem;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
+}
+
+.gallery2 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.gallery2 img {
+    width: 15rem;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
+}
+
+
+.gallery3 {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery3 img {
+    width: 20rem;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
+}
+
+.text1 {
+    width: 65vw;
+    margin: 0 auto;
+    color: yellow;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text2 {
+    width: 65vw;
+    margin: 0 auto;
+    color: yellow;
+    font-size: 1.5rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery4 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.gallery4 img {
+    width: 15rem;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
+}
+
+.text3 {
+    width: 65vw;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.text4 {
+    width: 65vw;
+    margin: 0 auto;
+    color: yellow;
+    font-size: 3rem;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.gallery5 {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery5 img {
+    width: 50rem;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
+}
+
+.gallery6 {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery6 img {
+    width: 20rem;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
+}
+
+
+
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+
+/* ===== ROOT FONT SIZE MEDIA QUERIES ===== */
+/* This controls the base font size for your whole website */
+
+/* Below 425px - Mobile phones */
+@media screen and (max-width: 424px) {
+    html {
+        font-size: 8px;
+        /* 1rem = 8px */
+    }
+}
+
+/* Between 425px and 768px - Large phones/Small tablets */
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    html {
+        font-size: 10px;
+        /* 1rem = 10px */
+    }
+}
+
+/* Between 768px and 1024px - Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    html {
+        font-size: 12px;
+        /* 1rem = 12px */
+    }
+}
+
+/* Between 1024px and 1920px - Laptops/Desktops */
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+    html {
+        font-size: 14px;
+        /* 1rem = 14px */
+    }
+}
+
+/* Above 1920px - Large screens */
+@media screen and (min-width: 1920px) {
+    html {
+        font-size: 16px;
+        /* 1rem = 16px */
+    }
+}
+
+
